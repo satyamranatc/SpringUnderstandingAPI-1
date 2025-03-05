@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Management App</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./User.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="logo">
+                <img src="/api/placeholder/50/50" alt="App Logo" class="logo-img">
+                <span class="logo-text">UserManage</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="../Home/Home.html" class="active">Home</a></li>
+                <li><a href="../UserList/User.html">Users</a></li>
+                <li><a href="../Admin/Admin.html">Add User</a></li>
+                <li><a href="../About/About.html">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="content-wrapper">
+
+        <section id = "Intro">
+            <h2>List Of All Users</h2>
+            <p>
+                You Can See The List Of All Users Provided By The Backend (Spring Boot)
+                on Api "https://localhost/8080/users"
+            </p>
+        </section>
+
+        <section id = "UserCards">
+
+        </section>
+      
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Users</a></li>
+                    <li><a href="#">Add User</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <p>Email: support@usermanage.com</p>
+                <p>Phone: +1 (555) 123-4567</p>
+            </div>
+            <div class="footer-section">
+                <h4>Follow Us</h4>
+                <div class="social-icons">
+                    <a href="#" class="social-icon">Twitter</a>
+                    <a href="#" class="social-icon">GitHub</a>
+                    <a href="#" class="social-icon">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 UserManage App. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+<script src="./User.js"></script>
+</html>
